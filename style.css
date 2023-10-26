@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  padding: 0;
+  /*background-color: antiquewhite; */
+  background-image: url(https://i0.wp.com/www.theilluminerdi.com/wp-content/uploads/2021/08/One-Piece-.jpeg?fit=2560%2C1440&ssl=1);  
+  background-attachment: fixed;
+}
+
+.tela{ 
+  width: 300px;
+  height: 600px;
+  border: solid 6px rgb(216, 19, 19);
+  border-radius: 10px;  
+  margin: auto;
+}
+
+.aplicativos{
+  display: flex;
+  height: 85px;
+  width: 100%;
+  gap: 15px; 
+  justify-content: center; 
+  align-items: center;
+  position: relative;
+  top:510px;     
+}
+
+.app{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: ease-in-out 0.1s;
+}
+
+#telaDeFundo{
+  background-position: right top;
+  background-image: url(https://i.pinimg.com/originals/03/0b/b6/030bb6ca0b76a232db9f617ab0a1e721.gif);
+}
+
+.logosApps{
+  width: 70%;
+  height: 70%; 
+  display: block;
+  margin: auto;
+  justify-content: center; 
+  align-items: center;
+  position: relative;
+  top:7px;
+}
+
+
+.app:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  background-color: rgb(182, 193, 193);  
+}
+
+.ligar{
+   width: 7px;
+   height: 60px;
+   background-color: rgb(216, 19, 19);
+   position: relative;
+   top: -400px;
+   left: 1110px;
+}
+.volumeMais{
+  width: 7px;
+  height: 60px;
+}
+.volumeMenos{
+  width: 7px;
+  height: 60px;
+}
